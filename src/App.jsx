@@ -25,7 +25,7 @@ function App() {
             <Button name="Refresh" onClick={weather.fetchData} />
           </>
         ) : (
-          <p>Please Entre Valid City Name</p>
+          <p>Please Enter Valid City Name</p>
         )}
       </div>
     </>

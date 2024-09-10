@@ -1,4 +1,4 @@
-const baseUrl = `http://api.weatherapi.com/v1/current.json?key=`;
+const baseUrl = `https://api.weatherapi.com/v1/current.json?key=`;
 const key = import.meta.env.VITE_APP_API_KEY;
 
 export const getCurrentWeatherByCity = async (city) => {
